@@ -1,0 +1,38 @@
+{
+  "name": "cortex-plugin-sales-outreach",
+  "version": "1.0.0",
+  "description": "Sales Outreach Sequence Manager — Lemlist/Outreach/SalesLoft multi-channel sequences, personalization, reply handling",
+  "kind": "esm",
+  "entryPoint": "mod.ts",
+  "runtime": "deno",
+  "author": "CortexPrism",
+  "license": "MIT",
+  "repository": "https://github.com/CortexPrism/cortex-plugin-sales-outreach",
+  "homepage": "https://cortexprism.io/marketplace/plugins/sales-outreach",
+  "capabilities": ["tools", "network:fetch"],
+  "tools": [
+    {
+      "name": "outreach_design_sequence",
+      "description": "Design multi-channel outreach sequence",
+      "params": []
+    },
+    {
+      "name": "outreach_personalize",
+      "description": "Personalize messaging from prospect research",
+      "params": []
+    },
+    {
+      "name": "outreach_handle_replies",
+      "description": "Auto-respond to common replies",
+      "params": []
+    },
+    {
+      "name": "outreach_optimize",
+      "description": "Optimize sequences based on response rates",
+      "params": []
+    }
+  ],
+  "dependencies": {},
+  "peerDependencies": { "cortex": ">=1.0.0" },
+  "aiDisclosure": { "tools": ["Kilo (DeepSeek) — batch scaffold"], "humanReview": true }
+}
